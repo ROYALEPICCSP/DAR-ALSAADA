@@ -1320,6 +1320,12 @@ section,
   bottom: 0;
 }
 
+.portfolio-img {
+    width: 100%;
+    height: 300px; /* same height for all */
+    object-fit: cover; /* keeps image ratio and fills box */
+}
+
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
